@@ -1,0 +1,242 @@
+html,
+			body {
+				font-size: 100px;
+				background-color: #efeff4;
+			}
+			.mui-bar~.mui-content .mui-fullscreen {
+				top: 44px;
+				height: auto;
+			}
+			.mui-pull-top-tips {
+				/*下拉位置*/
+				position: absolute;
+				top: 140px;
+				left: 50%;
+				margin-left: -25px;
+				width: 40px;
+				height: 40px;
+				border-radius: 100%;
+				z-index: 1;
+			}
+			.mui-bar~.mui-pull-top-tips {
+				top: 24px;
+			}
+			.mui-pull-top-wrapper {
+				width: 42px;
+				height: 42px;
+				display: block;
+				text-align: center;
+				background-color: #efeff4;
+				border: 1px solid #ddd;
+				border-radius: 25px;
+				background-clip: padding-box;
+				box-shadow: 0 4px 10px #bbb;
+				overflow: hidden;
+			}
+			.mui-pull-top-tips.mui-transitioning {
+				-webkit-transition-duration: 200ms;
+				transition-duration: 200ms;
+			}
+			.mui-pull-top-tips .mui-pull-loading {
+				/*-webkit-backface-visibility: hidden;
+				-webkit-transition-duration: 400ms;
+				transition-duration: 400ms;*/				
+				margin: 0;
+			}
+			.mui-pull-top-wrapper .mui-icon,
+			.mui-pull-top-wrapper .mui-spinner {
+				margin-top: -6px;
+			}
+			.mui-pull-top-wrapper .mui-icon.mui-reverse {
+				/*-webkit-transform: rotate(180deg) translateZ(0);*/
+			}
+			.mui-pull-bottom-tips {
+				text-align: center;
+				background-color: #efeff4;
+				font-size: 15px;
+				line-height: 40px;
+				color: #777;
+			}
+			.mui-pull-top-canvas {
+				overflow: hidden;
+				background-color: #fafafa;
+				border-radius: 40px;
+				box-shadow: 0 4px 10px #bbb;
+				width: 40px;
+				height: 40px;
+				margin: 0 auto;
+			}
+			.mui-pull-top-canvas canvas {
+				width: 40px;
+			}
+			.mui-slider-indicator.mui-segmented-control {
+				background-color: #efeff4;
+			}
+			.mui-segmented-control.mui-segmented-control-inverted .mui-control-item{
+				border-right: 0.02rem solid #f0f0ed;
+				font-size: 0.24rem;
+				/*height: 0.5rem;*/
+			}
+			.mui-segmented-control .mui-control-item{
+				line-height: 0.5rem;
+			}
+			.mui-slider-indicator.mui-segmented-control{
+				padding-top: 0.07rem;
+    			padding-bottom: 0.07rem;
+    			background: #fff;
+			}
+			.mui-segmented-control.mui-segmented-control-inverted .mui-control-item.mui-active{
+				color: #94e5ec;
+			}
+			/*con*/
+			.mui-fullscreen{
+				position: absolute;
+				top: 3.28rem;
+			}
+			.mui-fullscreen .mui-segmented-control~.mui-slider-group{
+				position: absolute;
+				top: 0.74rem;
+			}
+			.mui-slider .mui-segmented-control.mui-segmented-control-inverted~.mui-slider-group .mui-slider-item{
+				/*取消ul上下边框的线*/
+				border: 0px solid #000;
+			}
+			.mui-table-view-cell:after{
+				height:0;
+			}
+			/*头部 */	
+#header{
+	width: 7.5rem;
+	height: 0.88rem;
+	background-color: #94e5ec;
+	color: #FFFFFF;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 999;
+	font-size: 0.34rem;
+	text-align: center;
+	line-height: 0.88rem;
+	overflow: hidden;
+}
+#header *{
+	float: left;
+}
+#header #header_left {
+	width: 0.8rem;
+	height: 0.88rem;
+	position: absolute;
+	top: 0rem;
+	left:0rem;
+}
+#header_right{
+	width: 0.8rem;
+	height: 0.88rem;
+	position: absolute;
+	top: 0rem;
+	right:0rem;
+}
+#yuyi{
+	width: 0.5rem;
+    height: 0.51rem;
+	margin: 0.13rem 0.2rem 0 0;
+	float: right;
+}
+#prev{
+	width: 0.28rem;
+	height: 0.38rem;
+	margin:0.25rem 0 0 0.2rem;
+}
+.mui-table-view{
+	background: none;
+}
+/*li*/
+#btu{
+	height: 2.4rem;
+	width: 100%;
+	position: absolute;
+	top:0.88rem;
+	z-index:22;
+}
+.mui-ios .mui-table-view-cell{
+	overflow: hidden;	
+	padding: 0 0 0 0;
+	
+}
+.licon{
+	position: relative;
+	overflow: hidden;
+	margin-bottom: 0.1rem;
+	background-color: #fff;
+	padding: 0.25rem 0.20rem 0.25rem 0.20rem;
+}
+
+.mui-slider .mui-slider-group .mui-slider-item img{
+
+	width: 0.7rem;
+}
+.tx{
+	width: 0.7rem;
+    height: 0.7rem;
+    border-radius: 50%;
+    float: left;
+}
+.licon .litop .litop_mz{
+	float: left;
+	margin-left: 0.1rem;
+	overflow: hidden;	
+}
+.licon .litop .litop_mz img{
+	float: left;
+	width: 0.12rem;
+	height: 0.17rem;
+	margin-right: 0.1rem;
+}
+.licon .litop .litop_mz h1{
+	float: left;
+	font-size: 0.24rem;
+	
+}
+.times{
+	clear:left;
+	float: left;
+	font-size: 0.2rem;
+	color: #7c7c7c;
+	margin:0.1rem 0 0 0.2rem;
+}
+.licons{
+	position: relative;
+	float: left;
+	width: 100%;
+	overflow: hidden;	
+	margin-top: 0.3rem;
+}
+.mui-table-view-cell .licon .licons img{
+	float: left;
+	width: 1.94rem;
+    height: 1.94rem;
+}
+.mui-table-view-cell .licon .licons .liconn{
+	float: left;
+	overflow: hidden;	
+	margin-left: 0.3rem;
+}
+.mui-table-view-cell .licon .licons .liconn h1{
+    font-size: 0.24rem;
+    color: black;
+}
+.mui-table-view-cell .licon .licons .liconn p{
+    font-size: 0.2rem;
+    color: #797979;
+    margin-top: 0.2rem;
+}
+.mui-table-view-cell .licon .libottom{
+	position: absolute;
+	right:0;
+	bottom:0;
+}
+.mui-table-view-cell .licon .libottom img{
+	width: 0.24rem;
+    height: 0.24rem;
+    margin-left: 0.28rem;
+}
